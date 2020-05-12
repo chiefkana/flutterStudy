@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  flutter_svg: ^0.17.1
   flutter:
     sdk: flutter
 
@@ -41,6 +42,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/icons/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see
@@ -56,9 +58,10 @@ flutter:
         - asset: fonts/Montserrat-Regular.ttf
         - asset: fonts/Montserrat-Italic.ttf
           style: italic
-        - asset: fonts/Montserrat-Regular.ttf
         - asset: fonts/Montserrat-Medium.ttf
-          weight: 600
+          weight: 700
+        - asset: fonts/Montserrat-SemiBold.ttf
+          weight: 500
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
